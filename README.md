@@ -38,12 +38,16 @@ During the voting mode, it enables voters to cast their votes accurately.
 After the voting period, it switches to the result display mode to show the outcome of the voting process.
 
 a)It is used for control of LEDs.
+
 b)For voting mode, LEDs light up for a second to indicate the vote has been cast.
+
 c)For tally mode, the LEDs light up in binary numbers to indicate the number of votes received by the candidate.
 
 ### 3. Vote Logger Module
 This module is responsible for logging the votes cast by the voters.
+
 a) Logs the valid votes only if it is in the proper mode.
+
 b) Also used to reset the values at the start of operation.
 
 ### 4.Main Voting Machine module
